@@ -1,0 +1,4 @@
+module-info.class
+org\example\book_app_test\Controller.class
+org\example\book_app_test\Algorithm.class
+org\example\book_app_test\BookApplication.class

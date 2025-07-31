@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="vBox" alignment="CENTER" prefHeight="504.0" prefWidth="582.0" spacing="20.0" styleClass="vBoxClass" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.book_app_test.Controller">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <Button mnemonicParsing="false" onAction="#getList" prefHeight="30.0" prefWidth="102.0" styleClass="buttonClass" text="Хочу читать!" translateY="320.0">
+      <font>
+         <Font name="Roboto Light" size="14.0" />
+      </font>
+   </Button>
+   <TextArea fx:id="listArea" editable="false" prefHeight="140.0" prefWidth="542.0" style="color: black;" styleClass="areaClass" stylesheets="@button.css" translateY="-70.0">
+      <font>
+         <Font name="Roboto Light" size="18.0" />
+      </font></TextArea>
+   <Label prefHeight="40.0" prefWidth="450.0" text="Не знаешь что почитать?" textFill="GOLDENROD" translateX="-45.0" translateY="-290.0">
+      <font>
+         <Font size="32.0" />
+      </font>
+   </Label>
+   <Label fx:id="quoteLabel" prefHeight="40.0" prefWidth="256.0" text="Нажми чтобы получить рекомендации." textFill="GOLDENROD" translateY="80.0">
+      <font>
+         <Font name="Roboto Light" size="14.0" />
+      </font>
+   </Label>
+   <stylesheets>
+      <URL value="@button.css" />
+      <URL value="@area.css" />
+      <URL value="@style.css" />
+   </stylesheets>
+</VBox>

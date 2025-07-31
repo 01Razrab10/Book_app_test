@@ -1,0 +1,11 @@
+.buttonClass {
+      -fx-background-color: #DAA520;
+}
+.buttonClass:hover {
+      -fx-background-color: #DAA520;
+      -fx-effect: dropshadow(three-pass-box, yellow, 8, 0, 0, 0);
+}
+.buttonClass:pressed {
+      -fx-background-color: #B8860B;
+      -fx-translate-e: 319;
+}
